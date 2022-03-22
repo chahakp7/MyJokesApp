@@ -1,0 +1,59 @@
+﻿body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(#c1c1fb, #e6e6ff);
+    background-attachment: fixed;
+   
+}
+
+
+.entry {
+    text-align: center;
+}
+
+.hpara {
+    padding: 0 10%;
+}
+
+.head, .hpara {
+    opacity: 0;
+}
+
+.head {
+    animation: mhead 0.75s ease-out 1s forwards;
+}
+
+.hpara {
+    animation: mhead 0.75s ease-out 1.5s forwards;
+}
+
+@keyframes mhead {
+    100% {
+        opacity: 1;
+    }
+}
+
+.myman {
+    max-width: 40%;
+    max-height: 40%;
+    position: fixed;
+    margin-left: -300px;
+    left: 30%;
+    bottom: 50px;
+}
+
+.mywomen {
+    max-width: 40%;
+    max-height: 40%;
+    position: fixed;
+    margin-left: -300px;
+    right: 12%;
+    bottom: 50px;
+}
+
+h6, h5, h4, h3, h2, h1 {
+    font-weight: bold;
+}
+
+.form-control {
+    font-weight: bold;
+}
